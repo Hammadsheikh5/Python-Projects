@@ -1,4 +1,4 @@
-MAX_LENGTH : int = 3
+MAX_LENGTH : int = 5
 
 # Function to collect integer inputs from the user and return them as a list
 def get_number_list():
@@ -40,7 +40,7 @@ def main():
     lst : list[int] = get_number_list()
     print("Original list" ,lst)
     shorten(lst)
-    # print("Original list" ,lst)
+    print("Shorten list" ,lst)
 
 
 
